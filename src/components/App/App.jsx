@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
 import SignUp from '../SignUp/SignUp';
+import HomeScreen from '../HomeScreen/HomeScreen';
+import './App.css';
 
 function App() {
   return (
     <div className="page">
       {/* <div className="page__content"> */}
-        <SignUp />
+      {/* <SignUp /> */}
+      <HomeScreen />
       {/* </div> */}
     </div>
   );
